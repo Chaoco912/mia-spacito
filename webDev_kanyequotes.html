@@ -1,0 +1,69 @@
+
+<!-- Mia's website -->
+
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="webDev.css">
+
+  <div class="topnav">
+    <a class="active" href="\Users\User\Desktop\blub\WebDesign\webDev.html">Home</a>
+    <a href="C:\Users\User\Desktop\blub\WebDesign\webDev_aboutmia.html">About</a>
+    <a href="\Users\User\Desktop\blub\WebDesign\webDev_contact.html">Contact</a>
+    <a href="\Users\User\Desktop\blub\WebDesign\webDev_kanyequotes.html">Kanye Quotes</a>
+    <a href="\Users\User\Desktop\blub\WebDesign\webDev_broccoli.html">Broccoli</a>
+  </div>
+
+</head>
+
+<body>
+
+  <iframe src="\Users\User\Music\poop_song.mp3" allow="autoplay" allow="loop" id="audio" style="display:none">
+  </iframe>
+
+  <p id="kanye_quotes">
+    KANYE WEST QUOTES
+  </p>
+
+  <div id="kanyequotes3" class="container">
+    <img src="https://i.redd.it/0fc9xq4jcuk11.jpg" height="600"/>
+
+    <div class="left">
+      <p>
+        <button id="get_quote" type="button">
+          <a id="kanyequotes2" class="float-left submit-button">Click for a Quote</a>
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    document.getElementById("get_quote").onclick = function showQuote(){
+      var url_1 = "https://api.kanye.rest";
+          window.location.href = url_1;
+    }
+  </script>
+
+
+  <script src="https://github.com/ajzbc/kanye.rest/blob/master/server.js"></script>
+  <script src="https://github.com/ajzbc/kanye.rest/blob/master/quotes.json"></script>
+
+  <br>
+
+  <p>
+    <br>
+    <br>
+  </p>
+
+
+<div class="footer">
+  <p>
+    Everything was made under Mia's approval
+  </p>
+</div>
+
+</body>
+
+</html>
