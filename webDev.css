@@ -151,6 +151,30 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+#smoob_web {
+  color: black;
+  background-color: #f47783;
+  border: 3px solid #abdbee;
+  padding: 15px;
+  margin: 13px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#smoob_web:hover {
+  color: white;
+  background-color: #d69fc9;
+  border: 3px solid #c1badf;
+  padding: 15px;
+  margin: 13px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
 #abtmia {
   color: black;
   font-size: 60px;
